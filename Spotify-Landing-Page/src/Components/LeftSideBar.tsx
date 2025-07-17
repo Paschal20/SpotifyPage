@@ -1,5 +1,11 @@
 import LeftCardLine from "./LeftCardLine.tsx";
 import TextDiv from "./TextDiv.tsx";
+import Calvary from "../assets/Calvary.jpeg";
+import SunriseMass from "../assets/SunriseMass.jpeg";
+import Thisis from "../assets/ThisIsStHildegard.webp";
+import STFaustina from "../assets/StFaustinaDiary.jpeg";
+import Renai from "../assets/RenaissanceMasterpeices.jpeg";
+import ProMusica from "../assets/ProMusicaAlleluia.jpeg";
 
 const LeftBar = () => {
   return (
@@ -89,19 +95,35 @@ const LeftBar = () => {
 
       <div className="mt-5">
         <LeftCardLine
-          Src="../assets/ab676161000051749e528993a2820267b97f6aae.jpeg"
+          Src={Calvary}
           Title="Your Episodes"
           SubTitle="Saved & downloaded songs"
         />
         <LeftCardLine
-          Src="../assets/en.jpeg"
-          Title="Your Episodes"
-          SubTitle="Saved & downloaded songs"
+          Src={SunriseMass}
+          Title="Liked Songs"
+          SubTitle="Playlist"
         />
-        <LeftCardLine />
-        <LeftCardLine />
-        <LeftCardLine />
-        <LeftCardLine />
+        <LeftCardLine
+          Src={Thisis}
+          Title="This is St Hildegard "
+          SubTitle="St Hildegard Von bingen"
+        />
+        <LeftCardLine
+          Src={STFaustina}
+          Title="Diary of St Faustina"
+          SubTitle="St Faustina"
+        />
+        <LeftCardLine
+          Src={Renai}
+          Title="Renaissance Music"
+          SubTitle="Concert Singers"
+        />
+        <LeftCardLine
+          Src={ProMusica}
+          Title="Pro Music"
+          SubTitle="Promusica"
+        />
       </div>
     </div>
   );
