@@ -82,7 +82,7 @@ const MainSide = () => {
       <div className="flex justify-start">
         <div>
           <div>Made for</div>
-          <div className="flex w-6 w-full ">
+          <div className="flex w-6 ">
             <p className="font-bold text-2xl">MagentaXD</p>
             <p>Show All</p>
           </div>
